@@ -1,0 +1,122 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="textColorError">@color/colorAccent</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="MyButton" parent="Theme.AppCompat.Light">
+    <item name="android:textColor">@color/my_button_selector</item>
+    <item name="colorButtonNormal">@color/colorPrimary</item>
+    <item name="colorControlHighlight">@color/colorAccent</item>
+  </style>
+  <style name="MyButtonFlat" parent="Theme.AppCompat.Light">
+    <item name="colorControlHighlight">@color/colorAccent</item>
+  </style>
+
+  <style name="CircularProgress" parent="Theme.AppCompat.Light">
+    <item name="colorAccent">@color/colorPrimaryDark</item>
+  </style>
+
+  <style name="MyEditText" parent="Theme.AppCompat.Light">
+    <item name="android:drawablePadding">10dp</item>
+  </style>
+
+  <style name="TextViewProfile" parent="Theme.AppCompat.Light">
+    <item name="android:textSize">11sp</item>
+  </style>
+
+  <!-- ########### CARD VIEW ##############-->
+  <style name="MyCardViewStyle" parent="Theme.AppCompat.Light">
+    <item name="cardCornerRadius">2dp</item>
+    <item name="cardElevation">2dp</item>
+    <item name="contentPaddingBottom">5dp</item>
+    <item name="contentPaddingTop">5dp</item>
+    <item name="contentPaddingLeft">12dp</item>
+    <item name="contentPaddingRight">12dp</item>
+    <!--<item name="cardBackgroundColor">@color/colorAccent</item>-->
+  </style>
+
+  <!--  ########### TOOLBAR STYLE #############-->
+  <style name="ToolbarTextAppearance.Title">
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="ToolbarTextAppearance.Subtitle">
+    <item name="android:textSize">14sp</item>
+  </style>
+
+  <style name="MyToolbar">
+    <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    <item name="android:background">@color/colorPrimary</item>
+    <item name="android:elevation" tools:targetApi="lollipop">4dp</item>
+  </style>
+
+  <style name="ToolbarTextAppearance">
+    <item name="android:fontFamily">sans-serif-condensed</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+    <item name="android:shadowColor">@color/colorAccent</item>
+  </style>
+
+  <!-- ############ TAB STYLE ##############-->
+  <style name="MyTab" parent="Widget.Design.TabLayout">
+    <item name="tabIndicatorColor">@color/colorAccent</item>
+    <item name="tabIndicatorHeight">2dp</item>
+    <item name="tabPaddingStart">8dp</item>
+    <item name="tabPaddingEnd">8dp</item>
+    <item name="tabBackground">?attr/selectableItemBackground</item>
+    <item name="tabTextAppearance">@style/TabTextAppearance</item>
+    <item name="tabSelectedTextColor">@android:color/white</item>
+  </style>
+
+  <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@color/secondText</item>
+    <item name="android:textStyle">bold</item>
+    <item name="textAllCaps">true</item>
+  </style>
+
+  <style name="TextLabel" parent="">
+    <item name="android:textColorHint">@color/colorPrimary</item>
+    <item name="android:textSize">14sp</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorControlNormal">@color/cardview_shadow_start_color</item>
+    <item name="colorControlActivated">@color/colorAccent</item>
+  </style>
+
+  <style name="HeaderKriteria">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+    <item name="android:paddingBottom">5dp</item>
+    <item name="android:paddingTop">5dp</item>
+    <item name="android:layout_marginBottom">5dp</item>
+  </style>
+  <style name="IsiKriteria">
+    <item name="android:padding">5dp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="DialogCustomTheme" parent="android:Theme.Holo.Dialog">
+    <!--<item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>-->
+    <item name="android:windowBackground">@color/transparant</item>
+    <item name="android:textColorPrimary">#000000</item>
+    <item name="android:backgroundDimEnabled">false</item>
+    <item name="android:textColor">#000000</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:background">#FFFFFF</item>
+  </style>
+</resources>

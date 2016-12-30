@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="4"
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="2"
+          android:orientation="vertical"
+          android:paddingLeft="30dp"
+          android:paddingRight="30dp"
+          >
+
+        <AutoCompleteTextView
+            android:id="@+id/nip_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person"
+            android:gravity="center"
+            android:hint="NIP"
+            android:inputType="number"
+            android:maxLines="1"
+            android:theme="@style/MyEditText"
+            />
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:theme="@style/MyEditText"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tampilkan Password"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+          <Button
+              android:id="@+id/btn_login"
+              android:layout_width="match_parent"
+              android:layout_height="46dp"
+              android:layout_gravity="center"
+              android:text="MASUK"
+              android:theme="@style/MyButton"
+              />
+        </FrameLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

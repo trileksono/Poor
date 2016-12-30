@@ -1,0 +1,487 @@
+<resources>
+  <string name="error404">Server error, coba beberapa saat lagi</string>
+  <string name="http_error">Koneksi anda bermasalah</string>
+
+  <string name="app_name">SIAP</string>
+  <string name="app_sub_name">Data Kemiskinan</string>
+  <string name="txt_edit"><u>Edit</u></string>
+
+  <string name="error_message1">Koneksi bermasalah, silahkan coba beberapa saat lagi</string>
+
+  <!--LIST PERTANYAAN-->
+  <string name="penghasilan1">Apakah anda mempunyai penghasilan tetap ?</string>
+  <string name="penghasilan2">Apakah penghasilan yang anda dapat mencukupi kebutuhan rumah tangga dan sekolah anak ?</string>
+  <string name="penghasilan3">Berapa rata-rata penghasilan yang anda dapatkan setiap bulan ? </string>
+
+  <string name="pengeluaran1">Berapa rata-rata pengluaran anda dalam sebulan ? </string>
+  <string name="pengeluaran2">Apa menu harian yang dikonsumsi oleh keluarga sehari-hari ?</string>
+
+  <string name="kesehatan1">Apabila ada anggota keluarga yang sakit, biasanya kemana untuk berobat ?</string>
+  <string name="kesehatan2">Apa penyakit yang sering dialami oleh keluarga ?</string>
+
+  <string name="pakaian1">Dalam setahun, apakah tiap-tiap anggota keluarga dapat membeli pakaian baru ?</string>
+  <string name="pakaian2">Berapakah jumlah rata-rata pakaian baru untuk tiap-tiap anggota keluarga ? </string>
+
+  <string name="pendidikan1">Sampai jenjang sekolah apa anda mampu menyekolahkan anak-anak ?</string>
+  <string name="pendidikan2">Darimanakah anda mendapatkan sumber biaya pendidikan ?</string>
+
+  <string name="rumah1">Apakah anda memiliki rumah ?</string>
+  <string name="rumah2">Apa bahan dasar yang digunakan untuk dinding rumah yang anda tempati ?</string>
+  <string name="rumah3">Apa bahan dasar yang digunakan untuk lantai rumah yang anda tempati ?</string>
+  <string name="rumah4">Berapa luas lantai rumah ?(m2) </string>
+  <string name="rumah5">Berapa jumlah anggota keluarga ? </string>
+  <string name="rumah6">Apa bahan dasar yang digunakan untuk atap rumah yang anda tempati ?</string>
+  <string name="rumah7">Untuk buang air sehari-hari menggunakan MCK ?</string>
+  <string name="rumah8">Apa sumber penerangan yang digunakan dalam rumah ?</string>
+  <string name="rumah9">Apabila menggunakan listrik, berapa besaran daya yang digunakan?</string>
+
+  <string name="minum1">Dari mana kah sumber air minum yang anda gunakan ?</string>
+
+  <!--LIST RESULT KRITERIA-->
+  <string name="hsPenghasilan1">Memiliki penghasilan tetap</string>
+  <string name="hsPenghasilan2">Penghasilan dapat mencukupi kebutuhan rumah tangga dan sekolah anak</string>
+  <string name="hsPenghasilan3">Rata-rata penghasilan setiap bulan</string>
+
+  <string name="hsPengeluaran1">Rata-rata pengluaran dalam sebulan</string>
+  <string name="hsPengeluaran2">Menu harian yang dikonsumsi oleh keluarga sehari-hari</string>
+
+  <string name="hsKesehatan1">Tempat biasa untuk berobat apabila ada anggota keluarga yang sakit</string>
+  <string name="hsKesehatan2">Penyakit yang sering dialami oleh keluarga</string>
+
+  <string name="hsPakaian1">Dalam setahun, tiap-tiap anggota keluarga dapat membeli pakaian baru</string>
+  <string name="hsPakaian2">Jumlah rata-rata pakaian baru untuk tiap-tiap anggota keluarga</string>
+
+  <string name="hsPendidikan1">Pendidikan terakhir anak</string>
+  <string name="hsPendidikan2">Sumber biaya pendidikan</string>
+
+  <string name="hsRumah1">Memiliki rumah</string>
+  <string name="hsRumah2">Bahan dasar yang digunakan untuk dinding rumah</string>
+  <string name="hsRumah3">Bahan dasar yang digunakan untuk lantai rumah</string>
+  <string name="hsRumah4">Luas lantai rumah</string>
+  <string name="hsRumah5">Jumlah anggota keluarga</string>
+  <string name="hsRumah6">Bahan dasar yang digunakan untuk atap rumah yang anda tempati</string>
+  <string name="hsRumah7">MCK yang digunakan</string>
+  <string name="hsRumah8">Sumber penerangan yang digunakan dalam rumah</string>
+  <string name="hsRumah9">Besaran daya yang digunakan</string>
+
+  <string name="hsMinum1">Sumber air minum yang digunakan</string>
+
+  <string-array name="makan_pokok">
+    <item>Gandum</item>
+    <item>Jagung</item>
+    <item>Kentang</item>
+    <item>Mie</item>
+    <item>Nasi</item>
+    <item>Roti</item>
+    <item>Sagu</item>
+
+  </string-array>
+
+  <string-array name="makan_lauk">
+    <item>Ikan</item>
+    <item>Ikan asin</item>
+    <item>Telur</item>
+    <item>Daging</item>
+    <item>Tempe</item>
+    <item>Tahu</item>
+    <item>Oncom</item>
+    <item>Ayam</item>
+  </string-array>
+
+  <string-array name="makan_sayur">
+    <item>Sayur sop</item>
+    <item>Sayur bayam</item>
+    <item>Sayur kangkung</item>
+    <item>Sayur asem</item>
+    <item>Sayur kacang</item>
+    <item>Sayur kacang panjang</item>
+    <item>Sayur lodeh</item>
+    <item>Sayur daun singkong</item>
+    <item>Sayur sawi</item>
+    <item>Sayur toge</item>
+    <item>Sayur oyong</item>
+    <item>Sayur labuh</item>
+    <item>Sayur timun</item>
+    <item>Sayur jagung</item>
+  </string-array>
+
+  <string-array name="makan_buah">
+    <item>Alpukat</item>
+    <item>Anggur</item>
+    <item>Apel</item>
+    <item>Belewah</item>
+    <item>Belimbing</item>
+    <item>Buah Naga</item>
+    <item>Buni</item>
+    <item>Cempedak</item>
+    <item>Cermai</item>
+    <item>Cherry</item>
+    <item>Durian</item>
+    <item>Jamblang</item>
+    <item>Jambu</item>
+    <item>Jambu Biji</item>
+    <item>Jambu Monyet</item>
+    <item>Jeruk</item>
+    <item>Kecapi</item>
+    <item>Kedondong</item>
+    <item>Kelapa</item>
+    <item>Kiwi</item>
+    <item>Kurma</item>
+    <item>Leci</item>
+    <item>Lengkeng</item>
+    <item>Manggis</item>
+    <item>Markisa</item>
+    <item>Melon</item>
+    <item>Naga</item>
+    <item>Nanas</item>
+    <item>Nangka</item>
+    <item>Pear</item>
+    <item>Pepaya</item>
+    <item>Pisang</item>
+    <item>Rambutan</item>
+    <item>Salak</item>
+    <item>Sawo</item>
+    <item>Semangka</item>
+    <item>Sirsak</item>
+    <item>Strawberry</item>
+    <item>Sukun</item>
+    <item>Timun Suri</item>
+  </string-array>
+
+  <string-array name="lokasi_berobat">
+    <item>Puskesmas</item>
+    <item>Subsidi pemerintah (Jamkesda, Jamkesmas)</item>
+    <item>Lain-lain</item>
+  </string-array>
+
+  <string-array name="list_penyakit">
+    <item>Asma</item>
+    <item>Batuk</item>
+    <item>DBD</item>
+    <item>Demam</item>
+    <item>Diabetes</item>
+    <item>Diare</item>
+    <item>Flu</item>
+    <item>Gigi</item>
+    <item>Hipertensi</item>
+    <item>Hypothermia</item>
+    <item>ISPA</item>
+    <item>Kulit</item>
+    <item>Luka-luka</item>
+    <item>Maagh</item>
+    <item>Otot</item>
+    <item>Pusing</item>
+    <item>Sendi</item>
+    <item>TBC</item>
+    <item>Tenggorokan</item>
+    <item>Tipes</item>
+    <item>Tulang</item>
+  </string-array>
+
+  <string-array name="list_pendidikan">
+    <item>Tidak Sekolah</item>
+    <item>SD</item>
+    <item>SMP</item>
+    <item>SMA</item>
+    <item>Diploma</item>
+    <item>S1</item>
+    <item>S2</item>
+    <item>S3</item>
+  </string-array>
+
+  <string-array name="biaya_pendidikan">
+    <item>Biaya Sendiri</item>
+    <item>Prestasi atau beasiswa</item>
+    <item>Bantuan orang lain</item>
+  </string-array>
+
+  <string-array name="list_dinding">
+    <item>Bambu</item>
+    <item>Kayu</item>
+    <item>Bata Merah</item>
+  </string-array>
+
+  <string-array name="list_kondisi_full">
+    <item>Baik</item>
+    <item>Rendah</item>
+    <item>Tidak di Plester</item>
+    <item>Usang</item>
+  </string-array>
+
+  <string-array name="list_kondisi">
+    <item>Baik</item>
+    <item>Rendah</item>
+  </string-array>
+
+  <string-array name="list_lantai">
+    <item>Kayu</item>
+    <item>Semen</item>
+    <item>Tanah</item>
+    <item>Keramik</item>
+  </string-array>
+
+  <string-array name="list_atap">
+    <item>Ijuk</item>
+    <item>Rumbia Genteng</item>
+    <item>Seng</item>
+    <item>Asbes</item>
+  </string-array>
+
+  <string-array name="list_mck">
+    <item>Sendiri</item>
+    <item>Bersama keluarga lain</item>
+    <item>MCK terbuka atau alam (Jamban di sungai, selokan, kebun)</item>
+  </string-array>
+
+  <string-array name="list_lampu">
+    <item>Lampu tempel (Pelita, petromax, obor, lilin)</item>
+    <item>Listrik</item>
+  </string-array>
+
+  <string-array name="list_daya">
+    <item>450 Watt</item>
+    <item>900 Watt</item>
+    <item>1300 Watt</item>
+    <item>Lebih dari 1300 Watt</item>
+  </string-array>
+
+  <string-array name="list_air">
+    <item>Air Sumur</item>
+    <item>Mata Air</item>
+    <item>Air Sungai</item>
+    <item>Air Hujan</item>
+    <item>PAM/PDAM</item>
+    <item>Penjual air eceran</item>
+  </string-array>
+
+  <string-array name="list_camat">
+    <item>TANGERANG</item>
+    <item>JATIUWUNG</item>
+    <item>BENDA</item>
+    <item>CIPONDOH</item>
+    <item>CILEDUG</item>
+    <item>KARAWACI</item>
+    <item>PERIUK</item>
+    <item>CIBODAS</item>
+    <item>NEGLASARI</item>
+    <item>PINANG</item>
+    <item>KARANG TENGAH</item>
+    <item>LARANGAN</item>
+    <item>BATU CEPER</item>
+  </string-array>
+
+  <string-array name="list_kelurahan">
+    <item>SUKARASA</item>
+    <item>SUKAASIH</item>
+    <item>TANAH TINGGI</item>
+    <item>BUARAN INDAH</item>
+    <item>CIKOKOL</item>
+    <item>KELAPA INDAH</item>
+    <item>SUKASARI</item>
+    <item>BABAKAN</item>
+    <item>KERONCONG</item>
+    <item>JATAKE</item>
+    <item>MANIS JAYA</item>
+    <item>ALAM JAYA</item>
+    <item>PASIR JAYA</item>
+    <item>GANDASARI</item>
+    <item>BELENDUNG</item>
+    <item>JURUMUDI</item>
+    <item>BENDA</item>
+    <item>JURUMUDI BARU</item>
+    <item>PAJANG</item>
+    <item>CIPONDOH</item>
+    <item>CIPONDOH MAKMUR</item>
+    <item>CIPONDOH INDAH</item>
+    <item>GONDRONG</item>
+    <item>KENANGA</item>
+    <item>PETIR</item>
+    <item>KETAPANG</item>
+    <item>PORIS PLAWAD</item>
+    <item>PORIS PLAWAD UTARA</item>
+    <item>PORIS PLAWAD INDAH</item>
+    <item>PENINGGILAN</item>
+    <item>SUDIMARA BARAT</item>
+    <item>PARUNG SERAB</item>
+    <item>SUDIMARA JAYA</item>
+    <item>SUDIMARA TIMUR</item>
+    <item>TAJUR</item>
+    <item>SUDIMARA SELATAN</item>
+    <item>PENINGGILAN UTARA</item>
+    <item>KARAWACI</item>
+    <item>CIMONE JAYA</item>
+    <item>MARGASARI</item>
+    <item>SUKAJADI</item>
+    <item>PASAR BARU</item>
+    <item>BOJONG JAYA</item>
+    <item>KARAWACI BARU</item>
+    <item>PABUARAN</item>
+    <item>SUMUR PACING</item>
+    <item>PABUARAN TUMPENG</item>
+    <item>NAMBO JAYA</item>
+    <item>KOANG JAYA</item>
+    <item>NUSA JAYA</item>
+    <item>CIMONE</item>
+    <item>BUGEL</item>
+    <item>GERENDENG</item>
+    <item>GEBANG RAYA</item>
+    <item>SANGIANG JAYA</item>
+    <item>PERIUK JAYA</item>
+    <item>PERIUK</item>
+    <item>GEMBOR</item>
+    <item>CIBODAS BARU</item>
+    <item>PANUNGGANGAN BARAT</item>
+    <item>CIBODAS</item>
+    <item>CIBODASARI</item>
+    <item>UWUNG JAYA</item>
+    <item>JATIUWUNG</item>
+    <item>NEGLASARI</item>
+    <item>KARANGSARI</item>
+    <item>KEDAUNG WETAN</item>
+    <item>MEKARSARI</item>
+    <item>KARANG ANYAR</item>
+    <item>KEDAUNG BARU</item>
+    <item>SELAPAJANG JAYA</item>
+    <item>PINANG</item>
+    <item>SUDIMARA PINANG</item>
+    <item>NEROGTOG</item>
+    <item>KUNCIRAN</item>
+    <item>KUNCIRAN INDAH</item>
+    <item>KUNCIRAN JAYA</item>
+    <item>CIPETE</item>
+    <item>PAKOJAN</item>
+    <item>PANUNGGANGAN</item>
+    <item>PANUNGGANGAN UTARA</item>
+    <item>PANUNGGANGAN TIMUR</item>
+    <item>KARANG TENGAH</item>
+    <item>KARANG MULYA</item>
+    <item>PONDOK BAHAR</item>
+    <item>PONDOK PUCUNG</item>
+    <item>KARANG TIMUR</item>
+    <item>PEDURENAN</item>
+    <item>PARUNG JAYA</item>
+    <item>LARANGAN UTARA</item>
+    <item>LARANGAN SELATAN</item>
+    <item>LARANGAN INDAH</item>
+    <item>GAGA</item>
+    <item>KREO SELATAN</item>
+    <item>CIPADU</item>
+    <item>KREO</item>
+    <item>CIPADU JAYA</item>
+    <item>BATUCEPER</item>
+    <item>BATUJAYA</item>
+    <item>PORISGAGA</item>
+    <item>PORISGAGA BARU</item>
+    <item>KEBON BESAR</item>
+    <item>BATUSARI</item>
+    <item>PORIS JAYA</item>
+  </string-array>
+
+  <string-array name="id_cmt">
+    <item>1</item>
+    <item>1</item>
+    <item>1</item>
+    <item>1</item>
+    <item>1</item>
+    <item>1</item>
+    <item>1</item>
+    <item>1</item>
+    <item>2</item>
+    <item>2</item>
+    <item>2</item>
+    <item>2</item>
+    <item>2</item>
+    <item>2</item>
+    <item>3</item>
+    <item>3</item>
+    <item>3</item>
+    <item>3</item>
+    <item>3</item>
+    <item>4</item>
+    <item>4</item>
+    <item>4</item>
+    <item>4</item>
+    <item>4</item>
+    <item>4</item>
+    <item>4</item>
+    <item>4</item>
+    <item>4</item>
+    <item>4</item>
+    <item>5</item>
+    <item>5</item>
+    <item>5</item>
+    <item>5</item>
+    <item>5</item>
+    <item>5</item>
+    <item>5</item>
+    <item>5</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>6</item>
+    <item>7</item>
+    <item>7</item>
+    <item>7</item>
+    <item>7</item>
+    <item>7</item>
+    <item>8</item>
+    <item>8</item>
+    <item>8</item>
+    <item>8</item>
+    <item>8</item>
+    <item>8</item>
+    <item>9</item>
+    <item>9</item>
+    <item>9</item>
+    <item>9</item>
+    <item>9</item>
+    <item>9</item>
+    <item>9</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>10</item>
+    <item>11</item>
+    <item>11</item>
+    <item>11</item>
+    <item>11</item>
+    <item>11</item>
+    <item>11</item>
+    <item>11</item>
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+    <item>13</item>
+    <item>13</item>
+    <item>13</item>
+    <item>13</item>
+    <item>13</item>
+    <item>13</item>
+    <item>13</item>
+  </string-array>
+
+</resources>
